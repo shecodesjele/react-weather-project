@@ -73,7 +73,7 @@ export default function Weather() {
               alt="rain icon  "
             />
           </span>
-          <span className="tempe">bb 5 °C</span>
+          <span className="tempe">5 °C</span>
         </div>
         <ul>
           <li>Humidity: 78 %</li>
