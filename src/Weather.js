@@ -63,11 +63,21 @@ export default function Weather() {
     return (
       <div>
         {form}
+        <h2> Rijeka </h2>
+        <div> rain </div>
+        <div>
+          <span>
+            {" "}
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/rain.png"
+              alt="rain icon  "
+            />
+          </span>
+          <span className="tempe">bb 5 °C</span>
+        </div>
         <ul>
-          <li>Temperature:C</li>
-          <li>Description: </li>
-          <li>Humidity: %</li>
-          <li>Wind:</li>
+          <li>Humidity: 78 %</li>
+          <li>Wind: 2 km/h</li>
         </ul>
       </div>
     );
